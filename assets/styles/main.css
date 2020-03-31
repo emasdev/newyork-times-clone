@@ -34,7 +34,7 @@
   color: #000;
 }
 
-.btn {
+.top-menu .btn {
   border-radius: 3px;
   border: 1px solid #326891;
   padding: 11px 12px 8px 12px;
@@ -45,6 +45,8 @@
 }
 
 .article {
+  max-width: 1000px;
+  margin: auto;
 }
 
 .article-header .title {
@@ -57,22 +59,52 @@
   line-height: 1.3em;
 }
 
-.article figure {
-  max-width: 1000px;
-  margin: auto;
-}
-
 .article figure img {
   width: 100%;
 }
 
 .article figure figcaption {
-  width: 80%;
+  width: 70%;
   margin-top: 10px;
+  margin-bottom: 20px;
   color: #666;
   text-align: justify;
 }
 
 .credit {
   font-size: 0.8em;
+}
+
+.article .content {
+  margin: 0 200px 0 200px;
+}
+
+.info h4 {
+  font-weight: bold;
+}
+
+.info-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.share-buttons {
+  justify-items: end;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.share-buttons .btn {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 50%;
+  width: 15px;
+}
+
+.share-buttons .btn-2 {
+  margin-left: 10px;
+  padding: 10px;
 }
