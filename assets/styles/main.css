@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+:root {
+    --black: #000;
+    --white: #fff;
+    --link-blue: #326891;
+ 
+}
 
 .container {
   -webkit-box-sizing: border-box;
@@ -25,13 +30,13 @@
 
 .col-4 .link {
   text-decoration: none;
-  color: #000;
+  color: var(--black);
   text-transform: uppercase;
 }
 
 .col-4 .link:hover {
   text-decoration: underline;
-  color: #000;
+  color: var(--black);
 }
 
 .top-menu .btn {
@@ -39,7 +44,7 @@
   border: 1px solid #326891;
   padding: 11px 12px 8px 12px;
   background-color: #567b95;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -108,3 +113,45 @@
   margin-left: 10px;
   padding: 10px;
 }
+
+.article-paragraphs p{
+    font-size: 1.4em;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    margin: 20px 0 20px 0
+}
+
+.article-paragraphs p a{
+    color: var(--link-blue);
+}
+
+.article-paragraphs p a:hover{
+    text-decoration: none;
+    color: var(--link-blue);
+}
+
+.sign-up {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sign-up hr {
+    width: 25%;
+}
+
+.sign-up-text {
+    margin: 20px 0 20px 0;
+    font-size: 1.1em;
+}
+
+.sign-up p {
+    line-height: 1.5;
+}
+
+.sign-up p a {
+    color: var(--link-blue);
+    text-decoration: none;
+}
+
+
