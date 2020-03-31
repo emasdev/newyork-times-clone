@@ -218,3 +218,14 @@
   margin-top: 18px;
   font-size: 0.9em;
 }
+
+.article h2 {
+  margin-top: 40px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.article-paragraphs figcaption {
+  font-size: 0.8em;
+  line-height: 1;
+}
