@@ -1,43 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+
 .container {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .row {
-    padding: 20px 10px 20px 10px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  padding: 20px 10px 20px 10px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .col-4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
-    font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 .col-4 .fa {
-    margin: 0 5px 0 5px;
+  margin: 0 5px 0 5px;
 }
 
 .col-4 .link {
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
 }
 
 .col-4 .link:hover {
-    text-decoration: underline;
-    color: #000;
+  text-decoration: underline;
+  color: #000;
 }
 
 .btn {
-    border-radius: 3px;
-    border: 1px solid #326891;
-    padding: 11px 12px 8px 12px;
-    background-color: #567b95;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #326891;
+  padding: 11px 12px 8px 12px;
+  background-color: #567b95;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.article {
+}
+
+.article-header .title {
+  max-width: 600px;
+  margin: 50px auto 30px auto;
+  font-size: 2.3em;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  line-height: 1.3em;
+}
+
+.article figure {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.article figure img {
+  width: 100%;
+}
+
+.article figure figcaption {
+  width: 80%;
+  margin-top: 10px;
+  color: #666;
+  text-align: justify;
+}
+
+.credit {
+  font-size: 0.8em;
 }
