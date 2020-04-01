@@ -24,6 +24,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .col-4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9em;
@@ -78,6 +79,10 @@
   font-family: "Roboto Slab", serif;
   font-style: italic;
   line-height: 1.3em;
+}
+
+.grid-container img {
+  width: 100%;
 }
 
 .article figure {
@@ -142,8 +147,21 @@
   margin-top: 40px;
 }
 
+.sign-up p a {
+  color: var(--link-blue);
+  text-decoration: none;
+}
+
 .article-paragraphs p a {
   color: var(--link-blue);
+}
+
+.sidebar .item a {
+  display: flex;
+  flex-direction: right;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .article-paragraphs p a:hover {
@@ -174,11 +192,6 @@
   line-height: 1.5;
 }
 
-.sign-up p a {
-  color: var(--link-blue);
-  text-decoration: none;
-}
-
 .grid-info h2 {
   font-weight: bold;
   font-size: 1.3em;
@@ -199,6 +212,8 @@
   color: var(--black);
   text-align: justify;
   text-justify: inter-word;
+  margin-top: 18px;
+  font-size: 0.9em;
 }
 
 .grid-container p strong {
@@ -216,19 +231,10 @@
   margin: 8px;
 }
 
-.grid-container img {
-  width: 100%;
-}
-
 .grid-container hr {
   width: 60px;
   border: 1px solid var(--black);
   margin: 5px 0 5px 0;
-}
-
-.grid-container p {
-  margin-top: 18px;
-  font-size: 0.9em;
 }
 
 .article h2 {
@@ -277,14 +283,6 @@ p.subscribe {
   right: 80px;
 }
 
-.sidebar .item a {
-  display: flex;
-  flex-direction: right;
-  text-decoration: none;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
 .sidebar a img {
   width: 75px;
   height: 75px;
@@ -293,7 +291,7 @@ p.subscribe {
 .sidebar a h3 {
   margin-left: 10px;
   margin-right: 5px;
-  color: #333333;
+  color: #333;
 }
 
 .sidebar a h3:hover {
