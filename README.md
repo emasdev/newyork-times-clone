@@ -11,20 +11,15 @@ The Project uses Flex, Grid and floats
 - HTML5
 - CSS3
 
-
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
+[Live Demo Link](https://emasdev.github.io/newyork-times-clone/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Emanuel**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/emasdev)
 
 👤 **K**
 
