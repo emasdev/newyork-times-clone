@@ -80,6 +80,10 @@
   line-height: 1.3em;
 }
 
+.article figure {
+  margin-top: 40px;
+}
+
 .article figure img {
   width: 100%;
 }
@@ -135,6 +139,7 @@
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.5;
+  margin-top: 40px;
 }
 
 .article-paragraphs p a {
@@ -144,6 +149,11 @@
 .article-paragraphs p a:hover {
   text-decoration: none;
   color: var(--link-blue);
+}
+
+.article-paragraphs h4 {
+  font-size: 1.3em;
+  font-weight: normal;
 }
 
 .sign-up {
@@ -237,7 +247,7 @@ p.subscribe {
   margin: 20px 0 20px 0;
 }
 
-.read-comment{
+.read-comment {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -258,4 +268,34 @@ p.subscribe {
   color: var(--white);
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.aside {
+  position: absolute;
+  width: 210px;
+  top: 18%;
+  right: 80px;
+}
+
+.sidebar .item a {
+  display: flex;
+  flex-direction: right;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sidebar a img {
+  width: 75px;
+  height: 75px;
+}
+
+.sidebar a h3 {
+  margin-left: 10px;
+  margin-right: 5px;
+  color: #333333;
+}
+
+.sidebar a h3:hover {
+  text-decoration: underline;
 }
