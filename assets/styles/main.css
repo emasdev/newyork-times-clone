@@ -59,8 +59,6 @@
   position: relative;
   top: 100px;
   z-index: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -150,7 +148,6 @@
 
 .sidebar .item a {
   display: flex;
-  flex-direction: right;
   text-decoration: none;
   justify-content: space-between;
   margin: 10px 0;
