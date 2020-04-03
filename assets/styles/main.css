@@ -2,6 +2,9 @@
   --black: #000;
   --white: #fff;
   --link-blue: #326891;
+  --brown: #666;
+  --gray: #eee;
+  --blackish: #333;
 }
 
 /* NAVBAR */
@@ -42,9 +45,9 @@
 
 .btn {
   border-radius: 3px;
-  border: 1px solid #326891;
+  border: 1px solid var(--link-blue);
   padding: 11px 12px 8px 12px;
-  background-color: #567b95;
+  background-color: var(--link-blue);
   color: var(--white);
   text-transform: uppercase;
   cursor: pointer;
@@ -88,7 +91,7 @@
 .article .figcaption {
   width: 70%;
   margin: 10px 0 20px 0;
-  color: #666;
+  color: var(--brown);
   text-align: justify;
 }
 
@@ -116,7 +119,7 @@
 .article .share-buttons .btn {
   margin: 10px;
   padding: 10px;
-  background-color: #eee;
+  background-color: var(--light-gray);
   border: none;
   border-radius: 50%;
   width: 15px;
@@ -172,7 +175,7 @@
 }
 
 .grid-info p {
-  color: #666;
+  color: var(--brown);
   margin: 4px 0;
 }
 
@@ -252,11 +255,11 @@
 .article-paragraphs .subscribe {
   font-size: 0.8em;
   margin: 20px 0 20px 0;
-  color: #333;
+  color: var(--blackish);
 }
 
 .article-paragraphs .subscribe a {
-  color: #333;
+  color: var(--blackish);
 }
 
 .read-comment {
@@ -289,7 +292,7 @@
 
 .sidebar a h3 {
   margin: 0 10px 0 5px;
-  color: #333;
+  color: var(--blackish);;
 }
 
 .sidebar a h3:hover {
