@@ -20,14 +20,12 @@ The Project uses Flex, Grid and floats
 👤 **Emanuel**
 
 - Github: [@githubhandle](https://github.com/emasdev)
-- Email: [email](emas.dev@gmail.com)
 
 👤 **K**
 
 - Github: [@harshdeepkanhai](https://github.com/harshdeep-kanhai)
 - Twitter: [@harshdeepkanhai](https://twitter.com/harshdeepkanhai)
 - Linkedin: [linkedin](https://www.linkedin.com/in/harshdeepkanhai/)
-- Email: [email](harshdeepkanhai@gmail.com)
 
 ## 🤝 Contributing
 

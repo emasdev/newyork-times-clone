@@ -55,7 +55,6 @@
   margin: auto;
   position: relative;
   top: 100px;
-  width: 100vw;
   z-index: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -79,7 +78,7 @@
 }
 
 .article .figure {
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 .article .figure-img {
@@ -88,8 +87,7 @@
 
 .article .figcaption {
   width: 70%;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px 0 20px 0;
   color: #666;
   text-align: justify;
 }
@@ -99,7 +97,7 @@
 }
 
 .article .content {
-  margin: 0 200px 0 200px;
+  margin: 0 200px;
 }
 
 .article .info-details {
@@ -116,7 +114,7 @@
 }
 
 .article .share-buttons .btn {
-  margin-left: 10px;
+  margin: 10px;
   padding: 10px;
   background-color: #eee;
   border: none;
@@ -126,7 +124,7 @@
 }
 
 .article .share-buttons .btn-2 {
-  margin-left: 10px;
+  margin: 10px;
   padding: 10px;
 }
 
@@ -135,7 +133,7 @@
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.5;
-  margin-top: 40px;
+  margin: 20px 0;
 }
 
 .sign-up p a {
@@ -152,7 +150,7 @@
   flex-direction: right;
   text-decoration: none;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 
 .article-paragraphs p a:hover {
@@ -170,12 +168,12 @@
 .grid-info h2 {
   font-weight: bold;
   font-size: 1.3em;
-  margin-bottom: 5px;
+  margin: 2.5px 0;
 }
 
 .grid-info p {
   color: #666;
-  margin-bottom: 8px;
+  margin: 4px 0;
 }
 
 .grid-container {
@@ -187,23 +185,27 @@
   color: var(--black);
   text-align: justify;
   text-justify: inter-word;
-  margin-top: 18px;
+  margin: 9px 0;
   font-size: 0.9em;
 }
 
 .grid-container p strong {
   font-weight: bold;
-  margin-right: 5px;
+  margin: 2.5px 0;
 }
 
 .grid-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-bottom: 8px;
+  margin: 4px 0;
 }
 
 .grid-row > div {
   margin: 8px;
+}
+
+.figcaption-credit {
+  font-weight: bold;
 }
 
 .grid-container hr {
@@ -217,7 +219,7 @@
 }
 
 .article h2 {
-  margin-top: 40px;
+  margin: 40px 0;
   font-size: 1.4em;
   font-weight: bold;
 }
@@ -286,8 +288,7 @@
 }
 
 .sidebar a h3 {
-  margin-left: 10px;
-  margin-right: 5px;
+  margin: 0 10px 0 5px;
   color: #333;
 }
 
