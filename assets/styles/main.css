@@ -9,17 +9,17 @@
 
 /* NAVBAR */
 .top-menu .row {
-  padding: 20px 10px 20px 10px;
+  align-items: center;
+  background-color: var(--white);
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
+  justify-content: space-around;
+  left: 0;
+  padding: 20px 10px 20px 10px;
   position: fixed;
   top: 0;
-  left: 0;
-  background-color: var(--white);
-  z-index: 1;
   width: 100%;
-  justify-content: space-around;
-  align-items: center;
+  z-index: 1;
 }
 
 .top-menu .col-4 {
@@ -289,7 +289,7 @@
 
 .sidebar a h3 {
   margin: 0 10px 0 5px;
-  color: var(--blackish);;
+  color: var(--blackish);
 }
 
 .sidebar a h3:hover {
