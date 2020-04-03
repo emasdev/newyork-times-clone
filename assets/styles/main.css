@@ -4,14 +4,8 @@
   --link-blue: #326891;
 }
 
-.container {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 /* NAVBAR */
-.row {
+.top-menu .row {
   padding: 20px 10px 20px 10px;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
@@ -25,28 +19,28 @@
   align-items: center;
 }
 
-.col-4 {
+.top-menu .col-4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   font-weight: bold;
 }
 
-.col-4 .fa {
+.top-menu .col-4 .fa {
   margin: 0 5px 0 5px;
 }
 
-.col-4 .link {
+.top-menu .link {
   text-decoration: none;
   color: var(--black);
   text-transform: uppercase;
 }
 
-.col-4 .link:hover {
+.top-menu .link:hover {
   text-decoration: underline;
   color: var(--black);
 }
 
-.top-menu .btn {
+.btn {
   border-radius: 3px;
   border: 1px solid #326891;
   padding: 11px 12px 8px 12px;
@@ -63,13 +57,15 @@
   top: 100px;
   width: 100vw;
   z-index: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* ARTICLE */
 .article {
   max-width: 1000px;
   margin: auto;
-  margin-bottom: 50px;
 }
 
 .article-header .title {
@@ -82,19 +78,15 @@
   line-height: 1.3em;
 }
 
-.grid-container img {
-  width: 100%;
-}
-
-.article figure {
+.article .figure {
   margin-top: 40px;
 }
 
-.article figure img {
+.article .figure-img {
   width: 100%;
 }
 
-.article figure figcaption {
+.article .figcaption {
   width: 70%;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -102,7 +94,7 @@
   text-align: justify;
 }
 
-.credit {
+.article .credit {
   font-size: 0.8em;
 }
 
@@ -110,32 +102,30 @@
   margin: 0 200px 0 200px;
 }
 
-.article-content h4 {
-  font-weight: bold;
-}
-
-.info-details {
+.article .info-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
-.share-buttons {
+.article .share-buttons {
   justify-items: end;
   display: flex;
   text-align: center;
   align-items: center;
 }
 
-.share-buttons .btn {
+.article .share-buttons .btn {
   margin-left: 10px;
   padding: 10px;
   background-color: #eee;
+  border: none;
   border-radius: 50%;
   width: 15px;
+  color: black;
 }
 
-.share-buttons .btn-2 {
+.article .share-buttons .btn-2 {
   margin-left: 10px;
   padding: 10px;
 }
@@ -175,23 +165,7 @@
   font-weight: normal;
 }
 
-.sign-up {
-  text-align: center;
-  font-weight: bold;
-}
-
-.sign-up hr {
-  width: 25%;
-}
-
-.sign-up-text {
-  margin: 20px 0 20px 0;
-  font-size: 1.1em;
-}
-
-.sign-up p {
-  line-height: 1.5;
-}
+/* Grid section */
 
 .grid-info h2 {
   font-weight: bold;
@@ -238,6 +212,10 @@
   margin: 5px 0 5px 0;
 }
 
+.grid-container img {
+  width: 100%;
+}
+
 .article h2 {
   margin-top: 40px;
   font-size: 1.4em;
@@ -249,9 +227,34 @@
   line-height: 1;
 }
 
-p.subscribe {
+/* SIGNUP AREA */
+
+.sign-up {
+  text-align: center;
+  font-weight: bold;
+}
+
+.sign-up hr {
+  width: 25%;
+}
+
+.sign-up-text {
+  margin: 20px 0 20px 0;
+  font-size: 1.1em;
+}
+
+.sign-up p {
+  line-height: 1.5;
+}
+
+.article-paragraphs .subscribe {
   font-size: 0.8em;
   margin: 20px 0 20px 0;
+  color: #333;
+}
+
+.article-paragraphs .subscribe a {
+  color: #333;
 }
 
 .read-comment {
@@ -266,15 +269,8 @@ p.subscribe {
 }
 
 .read-comment .button .btn {
-  border-radius: 3px;
-  border: 1px solid #326891;
-  padding: 11px 12px 8px 12px;
-  background-color: #567b95;
   font-weight: bold;
   text-decoration: none;
-  color: var(--white);
-  text-transform: uppercase;
-  cursor: pointer;
 }
 
 .aside {
