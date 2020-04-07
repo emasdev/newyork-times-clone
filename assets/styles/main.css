@@ -45,7 +45,6 @@
   position: relative;
   top: 67.2px;
   width: 1200px;
-  box-sizing: border-box;
 }
 
 /* ARTICLE */
@@ -95,7 +94,7 @@
   margin: 10px;
   padding: 10px;
 }
-.article h2 {
+.article .article-title {
   margin: 40px 0;
   font-size: 1.4em;
   font-weight: bold;
@@ -125,7 +124,7 @@
   text-decoration: none;
   color: #326891;
 }
-.article-paragraphs h4 {
+.article-paragraphs h5 {
   font-size: 1.3em;
   font-weight: normal;
 }
@@ -164,20 +163,20 @@
   justify-content: space-between;
   margin: 10px 0;
 }
+.sidebar a {
+  margin: 0 10px 0 5px;
+  color: #333;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
 .sidebar a img {
   width: 75px;
   height: 75px;
 }
-.sidebar a h3 {
-  margin: 0 10px 0 5px;
-  color: #333;
-}
-.sidebar a h3:hover {
-  text-decoration: underline;
-}
 
 /* GRID AREA */
-.grid-info h2 {
+.grid-info .article-title {
   font-weight: bold;
   font-size: 1.3em;
   margin: 2.5px 0;

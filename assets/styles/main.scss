@@ -5,7 +5,6 @@ $white: #fff;
 $link-blue: #326891;
 $gray: #eee;
 
-
 /* NAVBAR */
 
 .top-menu {
@@ -60,7 +59,6 @@ $gray: #eee;
   position: relative;
   top: 67.2px;
   width: 1200px;
-  box-sizing: border-box;
 }
 
 /* ARTICLE */
@@ -118,7 +116,7 @@ $gray: #eee;
     }
   }
 
-  h2 {
+  .article-title {
     margin: 40px 0;
     font-size: 1.4em;
     font-weight: bold;
@@ -155,7 +153,7 @@ $gray: #eee;
     }
   }
 
-  h4 {
+  h5 {
     font-size: 1.3em;
     font-weight: normal;
   }
@@ -209,18 +207,14 @@ $gray: #eee;
   }
 
   a {
+    margin: 0 10px 0 5px;
+    color: $blackish;
+    &:hover {
+      text-decoration: underline;
+    }
     img {
       width: 75px;
       height: 75px;
-    }
-
-    h3 {
-      margin: 0 10px 0 5px;
-      color: $blackish;
-
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 }
@@ -228,7 +222,7 @@ $gray: #eee;
 /* GRID AREA */
 
 .grid-info {
-  h2 {
+  .article-title {
     font-weight: bold;
     font-size: 1.3em;
     margin: 2.5px 0;
@@ -315,7 +309,7 @@ $gray: #eee;
 
 // Footer
 .footer {
-  margin:  0 300px;
+  margin: 0 300px;
   width: 1200px;
   position: fixed;
   bottom: 0;
