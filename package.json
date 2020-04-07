@@ -1,0 +1,29 @@
+{
+  "name": "newyork-times-clone",
+  "version": "1.0.0",
+  "description": "New York Times Clone",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "stickler ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emasdev/newyork-times-clone.git"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "node"
+  ],
+  "authors": [
+    "Emas <emas.dev@gmail.com>",
+    "Harshdeep Kanhai <harshdeepkanhai@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/emasdev/newyork-times-clone#readme",
+  "devDependencies": {
+    "sass": "^1.26.3",
+    "stylelint": "^13.3.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
