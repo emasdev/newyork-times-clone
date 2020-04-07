@@ -1,0 +1,333 @@
+$black: #333;
+$white: #fff;
+$link-blue: #326891;
+$brown: #666;
+$gray: #eee;
+$blackish: #333;
+
+/* NAVBAR */
+
+.top-menu {
+  .row {
+    align-items: center;
+    background-color: $white;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    padding: 20px 10px 20px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .col-4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+
+    .fa {
+      margin: 0 5px 0 5px;
+    }
+  }
+
+  .link {
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+}
+
+.btn {
+  border-radius: 3px;
+  border: 1px solid $link-blue;
+  padding: 11px 12px 8px 12px;
+  background-color: $link-blue;
+  color: $white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* MAIN */
+.main {
+  margin: auto;
+  position: relative;
+  top: 100px;
+  z-index: 0;
+  box-sizing: border-box;
+}
+
+/* ARTICLE */
+.article {
+  max-width: 1000px;
+  margin: auto;
+
+  .figure {
+    margin: 40px 0;
+  }
+
+  .figure-img {
+    width: 100%;
+  }
+
+  .figcaption {
+    width: 70%;
+    margin: 10px 0 20px 0;
+    color: $brown;
+    text-align: justify;
+  }
+
+  .credit {
+    font-size: 0.8em;
+  }
+
+  .content {
+    margin: 0 200px;
+  }
+
+  .info-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .share-buttons {
+    justify-items: end;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    .btn {
+      margin: 10px;
+      padding: 10px;
+      background-color: $gray;
+      border: none;
+      border-radius: 50%;
+      width: 15px;
+      color: black;
+    }
+
+    .btn-2 {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+
+  h2 {
+    margin: 40px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+}
+
+.article-header {
+  .title {
+    max-width: 600px;
+    margin: 50px auto 30px auto;
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-style: italic;
+    line-height: 1.3em;
+  }
+}
+
+.article-paragraphs {
+  p {
+    font-size: 1.4em;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    margin: 20px 0;
+
+    a {
+      color: $link-blue;
+
+      &:hover {
+        text-decoration: none;
+        color: $link-blue;
+      }
+    }
+  }
+
+  h4 {
+    font-size: 1.3em;
+    font-weight: normal;
+  }
+
+  figure {
+    figcaption {
+      font-size: 0.8em;
+      line-height: 1;
+    }
+  }
+
+  .subscribe {
+    font-size: 0.8em;
+    margin: 20px 0 20px 0;
+    color: $blackish;
+
+    a {
+      color: $blackish;
+    }
+  }
+}
+
+/* SIGNUP AREA */
+
+.sign-up {
+  p {
+    a {
+      color: $link-blue;
+      text-decoration: none;
+    }
+
+    line-height: 1.5;
+  }
+
+  text-align: center;
+  font-weight: bold;
+
+  hr {
+    width: 25%;
+  }
+}
+
+.sidebar {
+  .item {
+    a {
+      display: flex;
+      text-decoration: none;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+  }
+
+  a {
+    img {
+      width: 75px;
+      height: 75px;
+    }
+
+    h3 {
+      margin: 0 10px 0 5px;
+      color: $blackish;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* GRID AREA */
+
+.grid-info {
+  h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 2.5px 0;
+  }
+
+  p {
+    color: $brown;
+    margin: 4px 0;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  p {
+    color: $black;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 9px 0;
+    font-size: 0.9em;
+
+    strong {
+      font-weight: bold;
+      margin: 2.5px 0;
+    }
+  }
+
+  hr {
+    width: 60px;
+    border: 1px solid $black;
+    margin: 5px 0 5px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 4px 0;
+
+  .grid-item {
+    margin: 8px;
+  }
+}
+
+.figcaption-credit {
+  font-weight: bold;
+}
+
+.sign-up-text {
+  margin: 20px 0 20px 0;
+  font-size: 1.1em;
+}
+
+.read-comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .button {
+    width: 50%;
+    padding: 11px 24px 8px 12px;
+
+    .btn {
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
+.aside {
+  position: absolute;
+  width: 210px;
+  top: 18%;
+  right: 80px;
+}
+
+// Footer
+.footer {
+  margin: 120px 0 10px 0;
+  position: relative;
+  ul {
+    text-align: center;
+  }
+  li {
+    display: inline;
+    margin: 0 4px;
+  }
+  .nav-link {
+    font-size: 0.8em;
+    color: $brown;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

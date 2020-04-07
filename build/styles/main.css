@@ -1,3 +1,4 @@
+/* COLORS */
 /* NAVBAR */
 .top-menu .row {
   align-items: center;
@@ -217,7 +218,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 4px 0;
 }
-.grid-row .grid-item {
+.grid-row > div {
   margin: 8px;
 }
 
@@ -249,26 +250,6 @@
   width: 210px;
   top: 18%;
   right: 80px;
-}
-
-.footer {
-  margin: 120px 0 10px 0;
-  position: relative;
-}
-.footer ul {
-  text-align: center;
-}
-.footer li {
-  display: inline;
-  margin: 0 4px;
-}
-.footer .nav-link {
-  font-size: 0.8em;
-  color: #666;
-  text-decoration: none;
-}
-.footer .nav-link:hover {
-  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */
