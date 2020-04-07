@@ -1,9 +1,10 @@
 $black: #333;
+$blackish: #333;
+$brown: #666;
 $white: #fff;
 $link-blue: #326891;
-$brown: #666;
 $gray: #eee;
-$blackish: #333;
+
 
 /* NAVBAR */
 
@@ -57,16 +58,15 @@ $blackish: #333;
 .main {
   margin: auto;
   position: relative;
-  top: 100px;
-  z-index: 0;
+  top: 67.2px;
+  width: 1200px;
   box-sizing: border-box;
 }
 
 /* ARTICLE */
 .article {
-  max-width: 1000px;
-  margin: auto;
-
+  float: left;
+  width: 80%;
   .figure {
     margin: 40px 0;
   }
@@ -290,6 +290,7 @@ $blackish: #333;
 .read-comment {
   display: flex;
   align-items: center;
+  margin: 0 0 100px 0;
   justify-content: space-between;
 
   .button {
@@ -304,16 +305,22 @@ $blackish: #333;
 }
 
 .aside {
+  float: right;
+  margin: 0 0 0 100px;
   position: absolute;
-  width: 210px;
-  top: 18%;
+  width: 20%;
+  top: 2000px;
   right: 80px;
 }
 
 // Footer
 .footer {
-  margin: 120px 0 10px 0;
-  position: relative;
+  margin:  0 300px;
+  width: 1200px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background: $white;
   ul {
     text-align: center;
   }
@@ -322,8 +329,8 @@ $blackish: #333;
     margin: 0 4px;
   }
   .nav-link {
-    font-size: 0.8em;
     color: $brown;
+    font-size: 0.8em;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
