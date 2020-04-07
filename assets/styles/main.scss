@@ -5,6 +5,11 @@ $white: #fff;
 $link-blue: #326891;
 $gray: #eee;
 
+h5 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
 /* NAVBAR */
 
 .top-menu {
@@ -174,11 +179,6 @@ $gray: #eee;
         color: $link-blue;
       }
     }
-  }
-
-  h5 {
-    font-size: 1.3em;
-    font-weight: normal;
   }
 
   figure {
