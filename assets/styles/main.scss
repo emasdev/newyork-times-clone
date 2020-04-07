@@ -135,6 +135,29 @@ $gray: #eee;
   }
 }
 
+.sidebar {
+  .item {
+    a {
+      display: flex;
+      text-decoration: none;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+  }
+
+  a {
+    margin: 0 10px 0 5px;
+    color: $blackish;
+    &:hover {
+      text-decoration: underline;
+    }
+    img {
+      width: 75px;
+      height: 75px;
+    }
+  }
+}
+
 .article-paragraphs {
   p {
     font-size: 1.4em;
@@ -193,29 +216,6 @@ $gray: #eee;
 
   hr {
     width: 25%;
-  }
-}
-
-.sidebar {
-  .item {
-    a {
-      display: flex;
-      text-decoration: none;
-      justify-content: space-between;
-      margin: 10px 0;
-    }
-  }
-
-  a {
-    margin: 0 10px 0 5px;
-    color: $blackish;
-    &:hover {
-      text-decoration: underline;
-    }
-    img {
-      width: 75px;
-      height: 75px;
-    }
   }
 }
 

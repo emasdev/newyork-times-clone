@@ -110,6 +110,24 @@
   line-height: 1.3em;
 }
 
+.sidebar .item a {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.sidebar a {
+  margin: 0 10px 0 5px;
+  color: #333;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+.sidebar a img {
+  width: 75px;
+  height: 75px;
+}
+
 .article-paragraphs p {
   font-size: 1.4em;
   text-align: justify;
@@ -155,24 +173,6 @@
 }
 .sign-up hr {
   width: 25%;
-}
-
-.sidebar .item a {
-  display: flex;
-  text-decoration: none;
-  justify-content: space-between;
-  margin: 10px 0;
-}
-.sidebar a {
-  margin: 0 10px 0 5px;
-  color: #333;
-}
-.sidebar a:hover {
-  text-decoration: underline;
-}
-.sidebar a img {
-  width: 75px;
-  height: 75px;
 }
 
 /* GRID AREA */
