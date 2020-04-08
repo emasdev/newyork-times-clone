@@ -149,6 +149,11 @@ h5 {
       margin: 10px 0;
     }
   }
+  .sidebar-text {
+    padding-top: 3px;
+    padding-left: 5px;
+    font-size: 0.9em;
+  }
 
   a {
     margin: 0 10px 0 5px;
@@ -309,8 +314,7 @@ h5 {
 
 // Footer
 .footer {
-  margin: 0 300px;
-  width: 1200px;
+  width: 100%;
   position: fixed;
   bottom: 0;
   z-index: 1;
@@ -321,6 +325,10 @@ h5 {
   li {
     display: inline;
     margin: 0 4px;
+  }
+  .footer__row {
+    max-width: 1200px;
+    margin: auto;
   }
   .nav-link {
     color: $brown;

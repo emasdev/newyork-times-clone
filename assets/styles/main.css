@@ -121,6 +121,11 @@ h5 {
   justify-content: space-between;
   margin: 10px 0;
 }
+.sidebar .sidebar-text {
+  padding-top: 3px;
+  padding-left: 5px;
+  font-size: 0.9em;
+}
 .sidebar a {
   margin: 0 10px 0 5px;
   color: #333;
@@ -254,8 +259,7 @@ h5 {
 }
 
 .footer {
-  margin: 0 300px;
-  width: 1200px;
+  width: 100%;
   position: fixed;
   bottom: 0;
   z-index: 1;
@@ -267,6 +271,10 @@ h5 {
 .footer li {
   display: inline;
   margin: 0 4px;
+}
+.footer .footer__row {
+  max-width: 1200px;
+  margin: auto;
 }
 .footer .nav-link {
   color: #666;
