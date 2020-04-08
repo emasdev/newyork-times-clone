@@ -4,6 +4,7 @@ $brown: #666;
 $white: #fff;
 $link-blue: #326891;
 $gray: #eee;
+$light-gray: #d0d0d0;
 
 h5 {
   font-size: 1.3em;
@@ -68,7 +69,6 @@ h5 {
 
 /* ARTICLE */
 .article {
-  float: left;
   width: 80%;
   .figure {
     margin: 40px 0;
@@ -304,7 +304,6 @@ h5 {
 }
 
 .aside {
-  float: right;
   margin: 0 0 0 100px;
   position: absolute;
   width: 20%;
@@ -315,27 +314,80 @@ h5 {
 // Footer
 .footer {
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
   background: $white;
-  ul {
-    text-align: center;
-  }
-  li {
-    display: inline;
-    margin: 0 4px;
-  }
-  .footer__row {
+
+  .footer__wrapper {
     max-width: 1200px;
     margin: auto;
-  }
-  .nav-link {
-    color: $brown;
-    font-size: 0.8em;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
+    .footer__top {
+      border-top: 4px double $light-gray;
+      border-style: double;
+      padding-top: 15px;
+      .columns {
+        display: flex;
+        justify-content: space-between;
+        .column {
+          display: flex;
+          flex-direction: column;
+        }
+        .column-heading {
+          font-weight: bold;
+          color: $blackish;
+          margin-bottom: 10px;
+        }
+        .column-link {
+          text-decoration: none;
+          color: $black;
+          line-height: 1.5;
+        }
+        .column-link:hover {
+          text-decoration: underline;
+        }
+        .subscribe-links {
+          .column-link {
+            font-size: 1.1em;
+            font-weight: bold;
+            img {
+              margin-top: 5px;
+              margin-right: 5px;
+            }
+          }
+        }
+        .last-column {
+          border-left: 1px solid $light-gray;
+          padding-left: 15px;
+          .links {
+            font-size: 0.9em;
+          }
+          .corporate-links {
+            margin: 10px 0;
+          }
+          .alternative-links {
+            border-top: 1px solid $light-gray;
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+    .footer__bottom {
+      border-top: 1px solid #d0d0d0;
+      margin: 20px 0;
+      padding-top: 10px;
+      ul {
+        text-align: center;
+      }
+      li {
+        display: inline;
+        margin: 0 4px;
+      }
+      .nav-link {
+        color: $brown;
+        font-size: 0.8em;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

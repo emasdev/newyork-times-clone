@@ -54,7 +54,6 @@ h5 {
 
 /* ARTICLE */
 .article {
-  float: left;
   width: 80%;
 }
 .article .figure {
@@ -250,7 +249,6 @@ h5 {
 }
 
 .aside {
-  float: right;
   margin: 0 0 0 100px;
   position: absolute;
   width: 20%;
@@ -260,28 +258,78 @@ h5 {
 
 .footer {
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
   background: #fff;
 }
-.footer ul {
-  text-align: center;
-}
-.footer li {
-  display: inline;
-  margin: 0 4px;
-}
-.footer .footer__row {
+.footer .footer__wrapper {
   max-width: 1200px;
   margin: auto;
 }
-.footer .nav-link {
+.footer .footer__wrapper .footer__top {
+  border-top: 4px double #d0d0d0;
+  border-style: double;
+  padding-top: 15px;
+}
+.footer .footer__wrapper .footer__top .columns {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer__wrapper .footer__top .columns .column {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer__wrapper .footer__top .columns .column-heading {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+.footer .footer__wrapper .footer__top .columns .column-link {
+  text-decoration: none;
+  color: #333;
+  line-height: 1.5;
+}
+.footer .footer__wrapper .footer__top .columns .column-link:hover {
+  text-decoration: underline;
+}
+.footer .footer__wrapper .footer__top .columns .subscribe-links .column-link {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.footer .footer__wrapper .footer__top .columns .subscribe-links .column-link img {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.footer .footer__wrapper .footer__top .columns .last-column {
+  border-left: 1px solid #d0d0d0;
+  padding-left: 15px;
+}
+.footer .footer__wrapper .footer__top .columns .last-column .links {
+  font-size: 0.9em;
+}
+.footer .footer__wrapper .footer__top .columns .last-column .corporate-links {
+  margin: 10px 0;
+}
+.footer .footer__wrapper .footer__top .columns .last-column .alternative-links {
+  border-top: 1px solid #d0d0d0;
+  padding-top: 15px;
+}
+.footer .footer__wrapper .footer__bottom {
+  border-top: 1px solid #d0d0d0;
+  margin: 20px 0;
+  padding-top: 10px;
+}
+.footer .footer__wrapper .footer__bottom ul {
+  text-align: center;
+}
+.footer .footer__wrapper .footer__bottom li {
+  display: inline;
+  margin: 0 4px;
+}
+.footer .footer__wrapper .footer__bottom .nav-link {
   color: #666;
   font-size: 0.8em;
   text-decoration: none;
 }
-.footer .nav-link:hover {
+.footer .footer__wrapper .footer__bottom .nav-link:hover {
   text-decoration: underline;
 }
 
