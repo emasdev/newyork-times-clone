@@ -74,6 +74,63 @@ h5 {
 .article .content {
   margin: 0 200px;
 }
+.article .news-grid {
+  clear: both;
+  margin-left: 40px;
+  margin-bottom: 100px;
+  display: flex;
+}
+.article .news-grid .news-grid-left .grid-heading {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.article .news-grid .news-grid-right {
+  margin-left: 10px;
+}
+.article .grid-list-item {
+  padding: 20px 0;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+.article .grid-list-item .grid-links {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+.article .grid-list-item .grid-links:hover {
+  color: #666;
+}
+.article .news-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.article .grid-heading {
+  padding-top: 20px;
+  display: block;
+  border-top: 1px solid #333;
+}
+.article .news-grid-element {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.article .grid-img {
+  width: 252px;
+}
+.article .grid-img-caption {
+  font-size: 0.8em;
+  color: #666;
+  margin-left: 98px;
+}
+.article .grid-link {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.article .grid-link:hover {
+  color: #666;
+}
 .article .info-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
