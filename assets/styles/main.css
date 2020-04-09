@@ -120,6 +120,9 @@ h5 {
   justify-content: space-between;
   margin: 10px 0;
 }
+.sidebar .sidebar-img {
+  width: 75px;
+}
 .sidebar .sidebar-text {
   padding-top: 3px;
   padding-left: 5px;
