@@ -74,63 +74,6 @@ h5 {
 .article .content {
   margin: 0 200px;
 }
-.article .news-grid {
-  clear: both;
-  margin-left: 40px;
-  margin-bottom: 100px;
-  display: flex;
-}
-.article .news-grid .news-grid-left .grid-heading {
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.article .news-grid .news-grid-right {
-  margin-left: 10px;
-}
-.article .grid-list-item {
-  padding: 20px 0;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-}
-.article .grid-list-item .grid-links {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2em;
-}
-.article .grid-list-item .grid-links:hover {
-  color: #666;
-}
-.article .news-grids {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.article .grid-heading {
-  padding-top: 20px;
-  display: block;
-  border-top: 1px solid #333;
-}
-.article .news-grid-element {
-  width: 300px;
-  margin-bottom: 30px;
-}
-.article .grid-img {
-  width: 252px;
-}
-.article .grid-img-caption {
-  font-size: 0.8em;
-  color: #666;
-  margin-left: 98px;
-}
-.article .grid-link {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #333;
-  text-decoration: none;
-}
-.article .grid-link:hover {
-  color: #666;
-}
 .article .info-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -159,6 +102,76 @@ h5 {
   margin: 40px 0;
   font-size: 1.4em;
   font-weight: bold;
+}
+
+.news-grid {
+  clear: both;
+  margin-left: 40px;
+  margin-bottom: 100px;
+  display: flex;
+}
+.news-grid .grid-heading {
+  padding-top: 20px;
+  display: block;
+  border-top: 1px solid #333;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.news-grid .news-grid-right .grid-heading {
+  color: #333;
+  border-bottom: 1px solid #d0d0d0;
+}
+.news-grid .news-grid-right .grid-links {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.grid-list-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #d0d0d0;
+}
+.grid-list-item .grid-links {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+}
+.grid-list-item .grid-links:hover {
+  color: #666;
+}
+
+.news-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.news-grid-element {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.news-grid-element .date {
+  color: #666;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.grid-img {
+  width: 252px;
+}
+
+.grid-img-caption {
+  font-size: 0.8em;
+  color: #666;
+  margin-left: 98px;
+}
+
+.grid-link {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.grid-link:hover {
+  color: #666;
 }
 
 .article-header .title {
