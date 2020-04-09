@@ -119,8 +119,6 @@ h5 {
 }
 
 .news-grid {
-  clear: both;
-  margin-left: 40px;
   margin-bottom: 100px;
   display: flex;
 }
@@ -131,6 +129,11 @@ h5 {
   border-top: 1px solid #333;
   font-weight: bold;
   padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.news-grid .news-grid-right {
+  margin-left: 40px;
 }
 
 .news-grid .news-grid-right .grid-heading {
@@ -164,8 +167,12 @@ h5 {
 }
 
 .news-grid-element {
-  width: 300px;
-  margin-bottom: 30px;
+  width: 252px;
+  margin: 10px;
+}
+
+.news-grid-element figure {
+  text-align: center;
 }
 
 .news-grid-element .date {
@@ -182,10 +189,12 @@ h5 {
   font-size: 0.8em;
   color: #666;
   margin-left: 98px;
+  padding: 0 5px;
+  text-align: right;
 }
 
 .grid-link {
-  font-size: 1.2em;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #333;
   text-decoration: none;
@@ -423,45 +432,45 @@ h5 {
   margin-right: 5px;
 }
 
-.footer .footer__wrapper .footer__top .columns .last-column {
+.footer .columns .last-column {
   border-left: 1px solid #d0d0d0;
   padding-left: 15px;
 }
 
-.footer .footer__wrapper .footer__top .columns .last-column .links {
+.footer .columns .last-column .links {
   font-size: 0.9em;
 }
 
-.footer .footer__wrapper .footer__top .columns .last-column .corporate-links {
+.footer .columns .last-column .corporate-links {
   margin: 10px 0;
 }
 
-.footer .footer__wrapper .footer__top .columns .last-column .alternative-links {
+.footer .columns .last-column .alternative-links {
   border-top: 1px solid #d0d0d0;
   padding-top: 15px;
 }
 
-.footer .footer__wrapper .footer__bottom {
+.footer .footer__bottom {
   border-top: 1px solid #d0d0d0;
   margin: 20px 0;
   padding-top: 10px;
 }
 
-.footer .footer__wrapper .footer__bottom ul {
+.footer .footer__bottom ul {
   text-align: center;
 }
 
-.footer .footer__wrapper .footer__bottom li {
+.footer .footer__bottom li {
   display: inline;
   margin: 0 4px;
 }
 
-.footer .footer__wrapper .footer__bottom .nav-link {
+.footer .footer__bottom .nav-link {
   color: #666;
   font-size: 0.8em;
   text-decoration: none;
 }
 
-.footer .footer__wrapper .footer__bottom .nav-link:hover {
+.footer .footer__bottom .nav-link:hover {
   text-decoration: underline;
 }
