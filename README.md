@@ -13,7 +13,7 @@ The Project uses Flex, Grid and floats
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/emasdev/newyork-times-clone/124304809ae818e2dc65633ffd3eed4d1f0b740e/index.html)
+[Live Demo Link](https://rawcdn.githack.com/emasdev/newyork-times-clone/8b585fbb072fe7ab2c06815f821616c9aedc6206/index.html)
 
 ## Authors
 
