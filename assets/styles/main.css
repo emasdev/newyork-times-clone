@@ -3,6 +3,16 @@ h5 {
   font-weight: normal;
 }
 
+ul {
+  list-style: none;
+  padding: 0 5px;
+}
+
+h4 {
+  font-weight: normal;
+  margin: 0;
+}
+
 /* NAVBAR */
 .top-menu .row {
   align-items: center;
@@ -252,12 +262,15 @@ h5 {
 
 .sidebar .sidebar-img {
   width: 75px;
+  height: auto;
 }
 
 .sidebar .sidebar-text {
-  padding-top: 3px;
-  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
   font-size: 0.9rem;
+  font-weight: normal;
 }
 
 .sidebar a:hover {
@@ -436,7 +449,13 @@ h5 {
   font-weight: bold;
 }
 
-.footer .footer__wrapper .footer__top .columns .subscribe-links .column-link img {
+.footer
+  .footer__wrapper
+  .footer__top
+  .columns
+  .subscribe-links
+  .column-link
+  img {
   margin-top: 5px;
   margin-right: 5px;
 }
