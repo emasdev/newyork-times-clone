@@ -53,7 +53,7 @@ h5 {
   margin: auto;
   position: relative;
   top: 67.2px;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 /* ARTICLE */
@@ -65,12 +65,27 @@ h5 {
   margin: 40px 0;
 }
 
+.article .figure-2 {
+  margin: 0 100px;
+}
+
 .article .figure-img {
   width: 100%;
 }
 
+.article-header .figcaption {
+  width: 80%;
+}
+
+.article-header .figcaption-text {
+  font-size: 1.2rem;
+}
+
+.article h5 {
+  font-size: 1rem;
+}
+
 .article .figcaption {
-  width: 70%;
   margin: 10px 0 20px 0;
   color: #666;
   text-align: justify;
@@ -211,7 +226,7 @@ h5 {
   font-weight: bold;
   font-family: "Roboto Slab", serif;
   font-style: italic;
-  line-height: 1.3rem;
+  line-height: 3rem;
 }
 
 .sidebar a {
@@ -251,11 +266,6 @@ h5 {
 
 .grid-container img {
   width: 100%;
-}
-
-.sidebar a img {
-  width: 75px;
-  height: 75px;
 }
 
 .article-paragraphs p {
@@ -427,13 +437,7 @@ h5 {
   font-weight: bold;
 }
 
-.footer
-  .footer__wrapper
-  .footer__top
-  .columns
-  .subscribe-links
-  .column-link
-  img {
+.footer .footer__wrapper .footer__top .columns .subscribe-links .column-link img {
   margin-top: 5px;
   margin-right: 5px;
 }
