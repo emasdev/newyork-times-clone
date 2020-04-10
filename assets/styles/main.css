@@ -402,7 +402,6 @@ h5 {
 
 .footer .footer__wrapper .footer__top {
   border-top: 4px double #d0d0d0;
-  border-style: double;
   padding-top: 15px;
 }
 
@@ -483,4 +482,27 @@ h5 {
 
 .footer .footer__bottom .nav-link:hover {
   text-decoration: underline;
+}
+
+.fixed-info {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #666;
+  text-align: center;
+}
+
+.fixed-info .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fixed-info .expand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-right: 30px;
 }
